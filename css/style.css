@@ -1,0 +1,153 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: none;
+	padding:1%;
+	font-size:150%;
+	font-family:Verdana, 'Times New Roman', serif;
+	background-color:#000000;
+	color: #FFFFFF;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 48px; 
+	padding: 15px;
+	text-align: center;
+}
+
+
+.active{
+	background: white;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.active a{
+	text-decoration: none;;
+}
+
+/*Style the images*/
+img{
+    width: 350px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    border: 10px #FFFFFF dashed;
+}
+
+/*Improve the spacing for paragraphs*/
+p{
+    padding: 15px;
+	bottom: 0%;
+	left: 0%;
+	font-size: 24px;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 32px; 
+	text-shadow: 2px 4px #808080;
+}
+
+div{
+	min-width: 100px;
+	height:none;
+	padding: 20px;
+	border: white 3px solid;
+}
+.intro{
+	border-radius: 15px;
+	margin-top: 15px;
+}
+
+.red{
+	background-color: #ff0000;
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 3px solid;
+	border-left: 10px solid;
+	border-right: 0px;
+	border-top: 0px;
+}
+
+.blue{
+	background-color: #0000FF;
+	text-align: left;
+	margin-right: 50px;
+	border-bottom: 3px solid;
+	border-right: 10px solid;
+	border-top: 0px;
+	border-left:0px;
+}
+
+.yellow{
+	background-color: #ffff00;
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 3px solid;
+	border-left: 10px solid;
+	border-right: 0px;
+	border-top: 0px;
+}
+
+.yellow h2{
+	color: #000000;
+	text-shadow: 2px 4px #c7e2c7;
+}
+
+.yellow p{
+	color: #000000;
+}
+
+.green{
+	background-color: #00EB00;
+	text-align: left;
+	margin-right: 50px;
+	border-bottom: 3px solid;
+	border-right: 10px solid;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+span{
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
+/*Add borders around the main components and some
+space too*/
+footer{
+	background-image: linear-gradient(to left,#000000, #0000ff 25%, #0066ff 70%, #000000 100%);
+}
+
+footer p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: none;
+}
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+/* nav li{
+	background-color: #ECFF4D;
+	padding:10px;
+	width:25%;
+	border:1px solid black;
+	display: inline-block;
+	width: 20%;
+} */
+
+
+
+/* Added this so the links stay the same color
+a:visited{color:#0000FF} */
+
