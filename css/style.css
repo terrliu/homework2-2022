@@ -7,7 +7,7 @@ body{
 	margin-bottom: none;
 	padding:1%;
 	font-size:150%;
-	font-family:Verdana, 'Times New Roman', serif;
+	font-family:Verdana, 'Times New Roman';
 	background-color:#000000;
 	color: #FFFFFF;
 }
@@ -41,7 +41,8 @@ img{
 
 /*Improve the spacing for paragraphs*/
 p{
-    padding: 15px;
+    padding-left: 15px;
+	padding-bottom: 15px;
 	bottom: 0%;
 	left: 0%;
 	font-size: 24px;
@@ -54,8 +55,7 @@ h2{
 }
 
 div{
-	min-width: 100px;
-	height:none;
+	min-height: 100px;
 	padding: 20px;
 	border: white 3px solid;
 }
@@ -104,7 +104,7 @@ div{
 }
 
 .green{
-	background-color: #00EB00;
+	background-color: #008500;
 	text-align: left;
 	margin-right: 50px;
 	border-bottom: 3px solid;
@@ -131,7 +131,7 @@ footer p{
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	padding-left: none;
+	padding-left: 0px;
 }
 
 
